@@ -7,7 +7,7 @@ class Program {
     public int swagLevel;
 
     public void PrintState()
-        => Console.WriteLine("Yo! {0} has a swaglevel of {1}!", programName, swagLevel);
+        => Console.WriteLine("Hello! {0} has a swaglevel of {1}!", programName, swagLevel);
 
     public void increaseSwag(int swag)
         => swagLevel += swag;
